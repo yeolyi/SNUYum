@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" href="https://snuco.snu.ac.kr/misc/favicon.ico" type="image/vnd.microsoft.icon">
+<meta name="Generator" content="Drupal 7 (http://drupal.org)">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<link rel="icon" href="/sites/all/themes/easywidget/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/sites/all/themes/easywidget/images/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon-precomposed" href="/sites/all/themes/easywidget/images/mobileicon.png">
+<link href="/sites/all/themes/easywidget/css/print.css" rel="stylesheet" type="text/css" media="print">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+<title>
+서울대학교
+| 서울대학교생활협동조합</title>
+<style type="text/css" media="all">
+@import url("https://snuco.snu.ac.kr/modules/system/system.base.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/modules/system/system.messages.css?qh1vzn");
+</style>
+<style type="text/css" media="all">
+@import url("https://snuco.snu.ac.kr/misc/ui/jquery.ui.core.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/misc/ui/jquery.ui.theme.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/misc/ui/jquery.ui.button.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/misc/ui/jquery.ui.resizable.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/misc/ui/jquery.ui.dialog.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/misc/ui/jquery.ui.datepicker.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?qh1vzn");
+</style>
+<style type="text/css" media="all">
+@import url("https://snuco.snu.ac.kr/sites/all/modules/calendar/css/calendar_multiday.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/modules/comment/comment.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/sites/all/modules/date/date_api/date.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/sites/all/modules/date/date_repeat_field/date_repeat_field.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/modules/field/theme/field.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/modules/node/node.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/modules/search/search.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/sites/all/modules/stackr_board/css/stackr_board.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/modules/user/user.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/sites/all/modules/views/css/views.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/sites/all/modules/ckeditor/css/ckeditor.css?qh1vzn");
+</style>
+<style type="text/css" media="all">
+@import url("https://snuco.snu.ac.kr/sites/all/modules/ctools/css/ctools.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/sites/all/modules/event_calendar/event_popup/css/event_popup.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/sites/all/modules/portfolio/css/admin.css?qh1vzn");
+</style>
+<style type="text/css" media="all">
+@import url("https://snuco.snu.ac.kr/sites/all/themes/easywidget/css/style.css?qh1vzn");
+</style>
+<style type="text/css" media="all">
+@import url("https://snuco.snu.ac.kr/sites/snuco.snu.ac.kr/files/css_injector/css_injector_2.css?qh1vzn");
+@import url("https://snuco.snu.ac.kr/sites/snuco.snu.ac.kr/files/css_injector/css_injector_3.css?qh1vzn");
+</style>
+<style type="text/css" media="screen">
+<!--/*--><![CDATA[/*><!--*/
+#stackr_board_1 .widgetTitle{color:#333;}
+#stackr_board_1 .widgetTitle.widget_body h2{color:#333;}
+#stackr_board_1 .widgetTitle.widget_body ul li a.thumb{text-align:center;}
+#stackr_board_1 .widgetTitle.widget_body .more{color:#333;}
+#stackr_board_1 .widgetTitle .widgetContainer .btn-wrap a.btn-detail.type01{color:#333;  border: 2px solid #333;}
+#stackr_board_1 .widgetTitle .widgetContainer ul li a.con-wrap div.con-tit span.date {color:#333;border: 1px solid #333;}
+#stackr_board_1 .widgetTitle .widgetContainer ul li a.con-wrap div.con-tit p {color:#333;}
+#stackr_board_1 .widgetTitle .widgetContainer ul li a.con-wrap div.con-tit span.date span.num{color:#333;}
+#stackr_board_1 .widgetTitle .widgetContainer ul li a.con-wrap div.con-txt p{color:#333;}
+#stackr_board_1 .widgetTitle .widgetContainer ul li div.btn-wrap a.btn-detail.type02{color:#333;}
+#stackr_board_1 .widgetTitle dl dt a{color:#333;}
+#stackr_board_1 .widgetTitle dl dd.sum p{color:#333;}
+#stackr_board_1 .widgetTitle dl dd.date{color:#333;}
+#stackr_board_1 .widgetTitle ul li dl dd.sum{color:#333;}
+#stackr_board_1 .widgetTitle ul li a.con-wrap div.con-txt span.date{color:#333;}
+#stackr_board_1 .widgetTitle ul li a.con-wrap div.con-txt strong{color:#333;}
+#stackr_board_1 .widgetTitle ul li a.con-wrap div.con-txt p{color:#333;}
+#stackr_board_1 .widgetTitle dt{line-height:26px;}.wdg_latest_22_f{width:400px;height:400px}
+.wdg_latest_22_f ul{overflow:hidden}
+.wdg_latest_22_f li{clear:both}
+.wdg_latest_22_f li dt{float:left;width:290px}
+.wdg_latest_22_f .widgetTitle dt{margin-bottom:14px}
+.wdg_latest_22_f li dd{float:right}#stackr_board_3 .widgetTitle{color:#333;}
+#stackr_board_3 .widgetTitle.widget_body h2{color:#333;}
+#stackr_board_3 .widgetTitle.widget_body ul li a.thumb{text-align:center;}
+#stackr_board_3 .widgetTitle.widget_body .more{color:#333;}
+#stackr_board_3 .widgetTitle .widgetContainer .btn-wrap a.btn-detail.type01{color:#333;  border: 2px solid #333;}
+#stackr_board_3 .widgetTitle .widgetContainer ul li a.con-wrap div.con-tit span.date {color:#333;border: 1px solid #333;}
+#stackr_board_3 .widgetTitle .widgetContainer ul li a.con-wrap div.con-tit p {color:#333;}
+#stackr_board_3 .widgetTitle .widgetContainer ul li a.con-wrap div.con-tit span.date span.num{color:#333;}
+#stackr_board_3 .widgetTitle .widgetContainer ul li a.con-wrap div.con-txt p{color:#333;}
+#stackr_board_3 .widgetTitle .widgetContainer ul li div.btn-wrap a.btn-detail.type02{color:#333;}
+#stackr_board_3 .widgetTitle dl dt a{color:#333;}
+#stackr_board_3 .widgetTitle dl dd.sum p{color:#333;}
+#stackr_board_3 .widgetTitle dl dd.date{color:#333;}
+#stackr_board_3 .widgetTitle ul li dl dd.sum{color:#333;}
+#stackr_board_3 .widgetTitle ul li a.con-wrap div.con-txt span.date{color:#333;}
+#stackr_board_3 .widgetTitle ul li a.con-wrap div.con-txt strong{color:#333;}
+#stackr_board_3 .widgetTitle ul li a.con-wrap div.con-txt p{color:#333;}
+#stackr_board_3 .widgetTitle dt{line-height:26px;}.wdg_latest_22_f{width:400px;height:400px}
+.wdg_latest_22_f ul{overflow:hidden}
+.wdg_latest_22_f li{clear:both}
+.wdg_latest_22_f li dt{float:left;width:290px}
+.wdg_latest_22_f .widgetTitle dt{margin-bottom:14px}
+.wdg_latest_22_f li dd{float:right}#imageblock_1 .bColor{background-color:#bababa;}
+#imageblock_1 .widget_body .thumb strong{color:#2A2A2A;}
+#imageblock_1 .widget_body .thumb span{color:#2A2A2A;}
+.widget_item.width300{width:300px}
+.wdg_banner_a.width300 .thumb img{width:300px}
+.wdg_banner_a.width300 .thumb span{width:300px;color:#fff}
+.widget_item.width150{width:150px}
+.wdg_banner_a.width150 .thumb img{width:150px}
+.wdg_banner_a.width150 .thumb span{width:150px;color:#fff}
+.widget_item.height100{height:100px}
+.widget_item.height100 .thumb span{height:60px}#imageblock_2 .bColor{background-color:#d3d3d3;}
+#imageblock_2 .widget_body .thumb strong{color:#2A2A2A;}
+#imageblock_2 .widget_body .thumb span{color:#2A2A2A;}
+.widget_item.width300{width:300px}
+.wdg_banner_a.width300 .thumb img{width:300px}
+.wdg_banner_a.width300 .thumb span{width:300px;color:#fff}
+.widget_item.width150{width:150px}
+.wdg_banner_a.width150 .thumb img{width:150px}
+.wdg_banner_a.width150 .thumb span{width:150px;color:#fff}
+.widget_item.height100{height:100px}
+.widget_item.height100 .thumb span{height:60px}#imageblock_3 .bColor{background-color:#787878;}
+#imageblock_3 .widget_body .thumb strong{color:#2A2A2A;}
+#imageblock_3 .widget_body .thumb span{color:#2A2A2A;}
+.widget_item.width300{width:300px}
+.wdg_banner_a.width300 .thumb img{width:300px}
+.wdg_banner_a.width300 .thumb span{width:300px;color:#fff}
+.widget_item.width150{width:150px}
+.wdg_banner_a.width150 .thumb img{width:150px}
+.wdg_banner_a.width150 .thumb span{width:150px;color:#fff}
+.widget_item.height100{height:100px}
+.widget_item.height100 .thumb span{height:60px}#imageblock_4 .bColor{background-color:#e9e9e9;}
+#imageblock_4 .widget_body .thumb strong{color:#2A2A2A;}
+#imageblock_4 .widget_body .thumb span{color:#2A2A2A;}
+.widget_item.width300{width:300px}
+.wdg_banner_a.width300 .thumb img{width:300px}
+.wdg_banner_a.width300 .thumb span{width:300px;color:#fff}
+.widget_item.width150{width:150px}
+.wdg_banner_a.width150 .thumb img{width:150px}
+.wdg_banner_a.width150 .thumb span{width:150px;color:#fff}
+.widget_item.height100{height:100px}
+.widget_item.height100 .thumb span{height:60px}
+/*]]>*/-->
+</style>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/jquery-extend-3.4.0.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/drupal.js?qh1vzn"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/ui/jquery.ui.core.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/ui/jquery.ui.widget.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/ui/jquery.ui.button.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/ui/jquery.ui.mouse.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/ui/jquery.ui.draggable.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/ui/jquery.ui.position.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/ui/jquery.ui.resizable.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/ui/jquery.ui.dialog.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/sites/all/modules/views/js/jquery.ui.dialog.patch.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/misc/ui/jquery.ui.datepicker.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/modules/locale/locale.datepicker.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/sites/all/modules/date/date_popup/jquery.timeentry.pack.js?v=1.4.7"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/sites/all/modules/stackr_board/js/stackr_board.js?qh1vzn"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/sites/all/modules/stackr_board/js/stackr_board_comment.js?qh1vzn"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/sites/snuco.snu.ac.kr/files/languages/ko_3RyfEzh81o3qCsD_hEG1D7V2gEL6G8F-hRKv6GZgrMc.js?qh1vzn"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/sites/all/modules/event_calendar/event_popup/js/event_popup.js?qh1vzn"></script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/sites/all/modules/event_calendar/event_popup/js/event_popup_validate.js?qh1vzn"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function($) {
+$.expr[':'].regex = function(elem, index, match) {
+var matchParams = match[3].split(','),
+validLabels = /^(data|css):/,
+attr = {
+method: matchParams[0].match(validLabels) ?
+matchParams[0].split(':')[0] : 'attr',
+property: matchParams.shift().replace(validLabels,'')
+},
+regexFlags = 'ig',
+regex = new RegExp(matchParams.join('').replace(/^\s+|\s+$/g,''), regexFlags);
+return regex.test(jQuery(elem)[attr.method](attr.property));
+}
+});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://snuco.snu.ac.kr/sites/all/modules/date/date_popup/date_popup.js?qh1vzn"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/2.2-latest/MathJax.js?config=TeX-AMS_HTML&amp;qh1vzn"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"ko\/","ajaxPageState":{"theme":"easywidget","theme_token":"2wr81yCAfPk2lwau0dtWpnhjzk8AWjjbjEA_GBSGvME","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.button.min.js":1,"misc\/ui\/jquery.ui.mouse.min.js":1,"misc\/ui\/jquery.ui.draggable.min.js":1,"misc\/ui\/jquery.ui.position.min.js":1,"misc\/ui\/jquery.ui.resizable.min.js":1,"misc\/ui\/jquery.ui.dialog.min.js":1,"sites\/all\/modules\/views\/js\/jquery.ui.dialog.patch.js":1,"misc\/ui\/jquery.ui.datepicker.min.js":1,"modules\/locale\/locale.datepicker.js":1,"sites\/all\/modules\/date\/date_popup\/jquery.timeentry.pack.js":1,"sites\/all\/modules\/stackr_board\/js\/stackr_board.js":1,"sites\/all\/modules\/stackr_board\/js\/stackr_board_comment.js":1,"public:\/\/languages\/ko_3RyfEzh81o3qCsD_hEG1D7V2gEL6G8F-hRKv6GZgrMc.js":1,"sites\/all\/modules\/event_calendar\/event_popup\/js\/event_popup.js":1,"sites\/all\/modules\/event_calendar\/event_popup\/js\/event_popup_validate.js":1,"0":1,"sites\/all\/modules\/date\/date_popup\/date_popup.js":1,"https:\/\/cdn.mathjax.org\/mathjax\/2.2-latest\/MathJax.js?config=TeX-AMS_HTML":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/jquery.timeentry.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/stackr_board\/css\/stackr_board.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/event_calendar\/event_popup\/css\/event_popup.css":1,"sites\/all\/modules\/portfolio\/css\/admin.css":1,"sites\/all\/themes\/easywidget\/css\/style.css":1,"public:\/\/css_injector\/css_injector_2.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"0":1,"1":1,"2":1,"3":1,"4":1,"5":1}},"event_popup":{"classes":"","defaults":"width:300;height:auto;position:[center,60]","selector":"content","content_type":"event_calendar","op":false},"notice_display":"0","jquery":{"ui":{"datepicker":{"isRTL":false,"firstDay":0}}},"datePopup":{"edit-field-menu-date-value-value-datepicker-popup-0":{"func":"datepicker","settings":{"changeMonth":true,"changeYear":true,"autoPopUp":"focus","closeAtTop":false,"speed":"immediate","firstDay":0,"dateFormat":"mm\/dd\/yy","yearRange":"+0:+0","fromTo":false,"defaultDate":"0y"}}},"urlIsAjaxTrusted":{"\/ko\/foodmenu":true},"theme":{"ajaxurl":"\/sites\/all\/themes\/easywidget\/ajax\/ajax.php","base_url":"https:\/\/snuco.snu.ac.kr","language":"ko"}});
+//--><!]]>
+</script>
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/easywidget/css/snu_unit.css">
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/easywidget/css/widgets.css">
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/easywidget/css/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/easywidget/css/contents.css">
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/easywidget/css/responsive.css">
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/easywidget/css/custom.css">
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/easywidget/css/org.css">
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/sites/all/themes/easywidget/css/ie.css"/><![endif]-->
+<!--[if lt IE 9]><script src="/sites/all/themes/easywidget/js/html5.js"></script><![endif]-->
+<script src="/sites/all/themes/easywidget/js/jquery-1.11.3.min.js"></script>
+<script src="/sites/all/themes/easywidget/js/jquery.bxslider.js"></script>
+<script src="/sites/all/themes/easywidget/js/jquery-ui.min.js"></script>
+<script src="/sites/all/themes/easywidget/js/jquery.validate.min.js"></script>
+<script src="/sites/all/themes/easywidget/js/messages_ko.js"></script>
+<script src="/sites/all/themes/easywidget/js/jquery.cookie.js"></script>
+<script src="/sites/all/themes/easywidget/js/packery.pkgd.min.js"></script>
+<script src="/sites/all/themes/easywidget/js/snu_unit.js"></script>
+<script src="/sites/all/themes/easywidget/js/custom.js"></script>
+<style>
+/* admin menu */
+#admin-menu .admin-menu-search{
+height:18px !important;line-height:18px !important;
+}
+
+/* define key color - background */
+.cf01 button,
+header .header_topmenu,
+header .header_gnb.type02 menu li.on dt a,
+.view-calendar table tbody td.has-events.future .calendar-empty,
+.widget_item.type03 .widgetTitle h2{background-color:#49AFB8}
+.keyColorBg{background-color:#49AFB8 !important}
+.postArea h2{color:#49AFB8;}
+.postArea h3{border-left:4px solid #49AFB8;padding-left:6px;}
+
+/* define key color - border */
+.view-calendar table tbody td.today .calendar-empty,
+.widget_item.type01 .widgetTitle h2,
+.widget_item.type02 .widgetTitle h2,
+.wdg_schedule_11.type01 h2::after,
+.fc01.type02 .ng05 dt,
+.tc01 .cHeader,
+.fc01.type02 .rightArea .header,
+body.pc .header_gnb menu li dd ul{border-color:#49AFB8}
+.keyColorBd{border-color:#49AFB8 !important}
+body.pc .header_gnb menu li dd ul:before{border-bottom-color:#49AFB8}
+
+
+body.pc .header_gnb.type01 menu li dt a {  font-size: 18px;}
+
+
+footer {background: #D5D5D5;}
+</style>
+</head>
+<body>
+<div id="skip-link">
+<a href="#main-content" class="element-invisible element-focusable">주요 콘텐츠로 건너뛰기</a>
+</div>
+<div id="main-container">
+<header>
+<div class="header_topmenu">
+<div class="inner">
+<img class="lg03" src="/sites/all/themes/easywidget/images/logo03.png" alt="SEOUL NATIONAL UNIVERSITY">
+<ul>
+<li><a class="login" href="https://sso.snu.ac.kr/snu/ssologin.jsp?si_redirect_address=https://snuco.snu.ac.kr/ko/foodmenu?field_menu_date_value_1%5Bvalue%5D%5Bdate%5D=&amp;field_menu_date_value%5Bvalue%5D%5Bdate%5D=03%2F24%2F2021">로그인</a></li>
+<li class="en"><a class="language-link" xml:lang="en" href="/?language=en" lang="en">English</a></li>
+<li><a href="/sitemap" lang="ko">Sitemap</a></li>
+</ul>
+<div class="cf01">
+<form action="https://search.snu.ac.kr/snukr/search.jsp" method="post" name="wnsearch" target="_blank" id="wnsearch">
+<input type="hidden" name="subCate" value="">
+<input type="hidden" name="actTarget" value="DefaultPortal">
+<input type="hidden" name="start" value="0">
+<input type="hidden" name="Cate" value="total">
+<input type="hidden" name="charType" value="utf8">
+<input type="hidden" name="language" id="search_langcode" value="">
+<span class="hidden_area"> <label for="search_kind">카테고리</label> <select id="search_kind" name="search_category"> <option value="in" selected>내부검색</option> <option value="ex">통합검색</option> </select> <label for="search_query">검색어</label> <input type="text" name="query" id="search_query"> </span>
+<button name="op" id="edit-submit" class="form-submit">검색</button>
+</form>
+<a class="btnClose" href="#close">검색창 닫기</a>
+</div>
+</div>
+</div>
+<div class="header_gnb type01" style="background:">
+<div class="inner">
+<div class="lg01">
+<a href="/" title="서울대학교생활협동조합"> <img src="https://snuco.snu.ac.kr/sites/snuco.snu.ac.kr/files/images.jpg" alt="서울대학교생활협동조합"> <span> <strong>서울대학교생활협동조합</strong> <em></em> </span> </a>
+</div>
+<a class="btn02 mobileMenu" href="#menu">모바일메뉴 열기/닫기</a>
+<menu>
+<li class="first expanded d0">
+<dl>
+<dt>
+<a href="/ko/node/3" title="생협소개">생협소개</a>
+</dt>
+<dd>
+<ul class="d1">
+<li class="first leaf"><a href="/ko/node/3" title="생협이란?">생협이란?</a></li>
+<li class="leaf"><a href="/ko/node/37" title="연혁">연혁</a></li>
+<li class="leaf"><a href="/ko/node/5" title="정관">정관</a></li>
+<li class="leaf"><a href="/ko/node/6" title="조직도 및 연락처">조직도 및 연락처</a></li>
+<li class="last leaf"><a href="/ko/node/7" title="찾아오시는 길">찾아오시는 길</a></li>
+</ul>
+</dd>
+</dl></li>
+<li class="expanded active-trail d0">
+<dl>
+<dt>
+<a href="/ko/node/20" title="식당&amp;카페" class="active-trail">식당&amp;카페</a>
+</dt>
+<dd>
+<ul class="d1">
+<li class="first leaf"><a href="/ko/node/20" title="식당안내">식당안내</a></li>
+<li class="leaf"><a href="/ko/node/21" title="카페안내">카페안내</a></li>
+<li class="leaf active-trail"><a href="/ko/foodmenu" title="식단(메뉴)" class="active-trail active">식단(메뉴)</a></li>
+<li class="leaf"><a href="/ko/node/36" title="캠퍼스투어 식당이용안내">캠퍼스투어 식당이용안내</a></li>
+<li class="last leaf"><a href="http://map.snu.ac.kr/web/main.action" title="식당위치">식당위치</a></li>
+</ul>
+</dd>
+</dl></li>
+<li class="expanded d0">
+<dl>
+<dt>
+<a href="/ko/node/18" title="매장">매장</a>
+</dt>
+<dd>
+<ul class="d1">
+<li class="first leaf"><a href="/ko/node/18" title="기념품·문구점">기념품·문구점</a></li>
+<li class="leaf"><a href="/ko/node/19" title="편의점">편의점</a></li>
+<li class="leaf"><a href="/ko/node/2" title="서점">서점</a></li>
+<li class="leaf"><a href="/ko/node/13" title="복사실">복사실</a></li>
+<li class="leaf"><a href="/ko/node/14" title="기타편의시설">기타편의시설</a></li>
+<li class="leaf"><a href="/ko/node/17" title="사물함 신청 안내">사물함 신청 안내</a></li>
+<li class="last leaf"><a href="http://map.snu.ac.kr/web/main.action" title="매장위치">매장위치</a></li>
+</ul>
+</dd>
+</dl></li>
+<li class="expanded d0">
+<dl>
+<dt>
+<a href="/ko/node/11" title="조합원">조합원</a>
+</dt>
+<dd>
+<ul class="d1">
+<li class="first leaf"><a href="/ko/node/11" title="조합원가입안내">조합원가입안내</a></li>
+<li class="leaf"><a href="/ko/node/15" title="가입신청">가입신청</a></li>
+<li class="leaf"><a href="/ko/node/30" title="탈퇴신청">탈퇴신청</a></li>
+<li class="last leaf"><a href="/ko/node/16" title="학생위원회">학생위원회</a></li>
+</ul>
+</dd>
+</dl></li>
+<li class="last expanded d0">
+<dl>
+<dt>
+<a href="/ko/board/notice" title="알림마당">알림마당</a>
+</dt>
+<dd>
+<ul class="d1">
+<li class="first leaf"><a href="/ko/board/announcement" title="공고">공고</a></li>
+<li class="leaf"><a href="/ko/board/notice" title="공지사항">공지사항</a></li>
+<li class="leaf"><a href="/ko/board/reference" title="자료광장">자료광장</a></li>
+<li class="leaf"><a href="/ko/board/contest" title="공모광장">공모광장</a></li>
+<li class="last leaf"><a href="/ko/board/suggest" title="한마디제안">한마디제안</a></li>
+</ul>
+</dd>
+</dl></li>
+</menu>
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+.side-banner {position: absolute;right: -11%;top: 210px;text-align: center;}
+.side-banner h2 {font-size: 14px;padding: 5px;color: #666;}
+.side-banner img {border: 1px solid #ddd;}
+
+.deposit.form-item.webform-component.webform-component-radios.webform-component--deposit {
+display: none;
+}
+.deposit.form-item.webform-component.webform-component-radios.webform-component--approval {
+display: none;
+}
+
+div#edit-field-menu-date-value-1-wrapper {
+display: none;
+}
+div#edit-field-date-en-value-1-wrapper {
+display: none;
+}
+
+@media (max-width: 1199px) {
+.side-banner {display: none;}
+}
+
+/*--><!]]>*/
+</style>
+<div class="side-banner">
+<h2>대학기념품</h2>
+<ul>
+<li><a href="http://www.snumall.com/" target="_blank"><img src="http://snuco.snu.ac.kr/sites/snuco.snu.ac.kr/files/%EB%8C%80%ED%95%99%EA%B8%B0%EB%85%90%ED%92%88%EB%AA%B0-%EC%84%9C%EC%9A%B8%EB%8C%80.jpg"></a></li>
+<li><a href="http://www.yonseicoop.com/" target="_blank"><img src="http://snuco.snu.ac.kr/sites/snuco.snu.ac.kr/files/%EB%8C%80%ED%95%99%EA%B8%B0%EB%85%90%ED%92%88%EB%AA%B0-%EC%97%B0%EC%84%B8%EB%8C%80.jpg"></a></li>
+<li><a href="http://coop.ewha.ac.kr/" target="_blank"><img src="http://snuco.snu.ac.kr/sites/snuco.snu.ac.kr/files/%EB%8C%80%ED%95%99%EA%B8%B0%EB%85%90%ED%92%88%EB%AA%B0-%EC%9D%B4%EB%8C%80.jpg"></a></li>
+<li><a href="http://www.instagram.com/snucores/" target="_blank"><img src="http://snuco.snu.ac.kr/sites/snuco.snu.ac.kr/files/ig-logo.png" style="width: 46px;border: 0;padding: 10px;"></a></li>
+</ul>
+</div>
+</div>
+</div>
+</header>
+<!-- <section class="fc01 type01"> -->
+<section class="fc01 type02 leftSide">
+<!--디자인 타입:type02, 레이아웃타입:leftSide, rightSide, bothSide, noneSide---->
+<div class="inner">
+<aside>
+<dl class="ng05">
+<dt>
+식당&amp;카페
+</dt>
+<dd class="aside">
+<div class="region region-sidebar widgetContainer inner">
+<div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
+<menu>
+<li class="first leaf menu-mlid-603"><a href="/ko/node/20" title="식당안내" class="d0">식당안내</a></li>
+<li class="leaf menu-mlid-617"><a href="/ko/node/21" title="카페안내" class="d0">카페안내</a></li>
+<li class="leaf active-trail active menu-mlid-620 on"><a href="/ko/foodmenu" title="식단(메뉴)" class="active-trail d0 active">식단(메뉴)</a></li>
+<li class="leaf menu-mlid-618"><a href="/ko/node/36" title="캠퍼스투어 식당이용안내" class="d0">캠퍼스투어 식당이용안내</a></li>
+<li class="last leaf menu-mlid-619"><a href="http://map.snu.ac.kr/web/main.action" title="식당위치" class="d0">식당위치</a></li>
+</menu>
+</div>
+</div>
+</dd>
+</dl>
+</aside>
+<div class="rightArea" id="main-content">
+<div class="header">
+<h1>식단</h1>
+<ul class="ng03">
+<li class="home"><a href="/">홈</a></li>
+<li><a href="/ko/node/20" title="">식당&amp;카페</a></li>
+</ul>
+<ul class="ng04">
+<li class="d0 pr"><a class="d0" href="#" title="인쇄하기">인쇄하기</a></li>
+<li class="d0 sh"> <a class="d0" href="#" title="공유">공유</a>
+<div class="subs">
+<ul>
+<li class="fb"><a target="_blank" title="페이스북" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsnuco.snu.ac.kr%2Fko%2Ffoodmenu%3Ffield_menu_date_value_1%255Bvalue%255D%255Bdate%255D%3D%26field_menu_date_value%255Bvalue%255D%255Bdate%255D%3D03%252F24%252F2021">페이스북</a></li>
+<li class="tw"><a target="_blank" title="트위터" href="https://twitter.com/intent/tweet?text=%EC%8B%9D%EB%8B%A8&amp;url=https%3A%2F%2Fsnuco.snu.ac.kr%2Fko%2Ffoodmenu%3Ffield_menu_date_value_1%255Bvalue%255D%255Bdate%255D%3D%26field_menu_date_value%255Bvalue%255D%255Bdate%255D%3D03%252F24%252F2021">트위터</a></li>
+<li class="ml"><a title="메일" href="#" onclick="return sendEmail();">메일</a></li>
+</ul>
+</div> </li>
+<li class="d0 rss"><a class="d0" href="https://snuco.snu.ac.kr/ko/foodmenu?field_menu_date_value_1%5Bvalue%5D%5Bdate%5D=&amp;field_menu_date_value%5Bvalue%5D%5Bdate%5D=03%2F24%2F2021/feed" title="RSS">RSS</a></li>
+</ul>
+</div>
+<!-- 컨텐츠 영역 -->
+<div class="contentsArea">
+<div class="region region-content widgetContainer inner">
+<div class="view view-foodmenu view-id-foodmenu view-display-id-page view-dom-id-cb31fee64f43c621f8adfe9bd0ed9241">
+<div class="view-header">
+<p><b>&lt;알림&gt;</b> 코로나19 수도권 사회적 거리두기 강화에 따라 점심식사 이용 시 식당 혼잡시간을 피하여 이용을 부탁드립니다.</p>
+<p>※학생회관, 3식당, 기숙사식당, 302동식당, 동원관식당, 자하연식당, 감골식당 7개소는 비구성원은 +800원~1,000원</p>
+<p>(#) NO MEAT</p>
+</div>
+<div class="view-filters">
+<form action="/ko/foodmenu" method="get" id="views-exposed-form-foodmenu-page" accept-charset="UTF-8">
+<div>
+<div class="views-exposed-form">
+<div class="views-exposed-widgets clearfix">
+<div id="edit-field-menu-date-value-1-wrapper" class="views-exposed-widget views-widget-filter-field_menu_date_value_1">
+<label for="edit-field-menu-date-value-1"> 날짜 (field_menu_date) </label>
+<div class="views-widget">
+<div id="edit-field-menu-date-value-value-wrapper">
+<div id="edit-field-menu-date-value-value-inside-wrapper">
+<div class="container-inline-date">
+<div class="form-item form-type-date-text form-item-field-menu-date-value-1-value">
+<div id="edit-field-menu-date-value-1-value" class="date-padding">
+<div class="form-item form-type-textfield form-item-field-menu-date-value-1-value-date">
+<label class="element-invisible" for="edit-field-menu-date-value-1-value-date">날짜 </label>
+<div class="date-date">
+<input class="date-date form-text" type="text" id="edit-field-menu-date-value-1-value-date" name="field_menu_date_value_1[value][date]" value="" size="60" maxlength="128">
+</div>
+<div class="description">
+Format: 03/27/2021
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="edit-field-menu-date-value-wrapper" class="views-exposed-widget views-widget-filter-field_menu_date_value">
+<label for="edit-field-menu-date-value"> 날짜 </label>
+<div class="views-widget">
+<div id="edit-field-menu-date-value-value-wrapper">
+<div id="edit-field-menu-date-value-value-inside-wrapper">
+<div class="container-inline-date">
+<div class="form-item form-type-date-popup form-item-field-menu-date-value-value">
+<div id="edit-field-menu-date-value-value" class="date-padding">
+<div class="form-item form-type-textfield form-item-field-menu-date-value-value-date">
+<label class="element-invisible" for="edit-field-menu-date-value-value-datepicker-popup-0">Date </label>
+<input type="text" id="edit-field-menu-date-value-value-datepicker-popup-0" name="field_menu_date_value[value][date]" value="03/24/2021" size="20" maxlength="30" class="form-text">
+<div class="description">
+E.g., 03/27/2021
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="views-exposed-widget views-submit-button">
+<input type="submit" id="edit-submit-foodmenu" name="" value="Apply" class="form-submit">
+</div>
+</div>
+</div>
+</div>
+</form>
+</div>
+<div class="view-content">
+<table class="views-table cols-4">
+<thead>
+<tr>
+<th class="views-field views-field-field-restaurant" scope="col"> 식당 </th>
+<th class="views-field views-field-field-breakfast" scope="col"> 아침 </th>
+<th class="views-field views-field-field-lunch" scope="col"> 점심 </th>
+<th class="views-field views-field-field-dinner" scope="col"> 저녁 </th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd views-row-first">
+<td class="views-field views-field-field-restaurant"> 학생회관식당(880-5543) </td>
+<td class="views-field views-field-field-breakfast"> <p>닭불고기간장볶음&nbsp; 2,200원</p> <p>※운영시간 08:00~09:30<br> &nbsp;</p> </td>
+<td class="views-field views-field-field-lunch"> <p>비프스트로가노프&amp;피쉬앤칩스&nbsp; 5,500원<br> 건새우근대된장국백반(#)&nbsp; 2,200원<br> 돌솥제육고추장볶음&nbsp; 4,000원</p> <p>※운영시간 11:00~15:00<br> ※혼잡시간 11:50~12:20</p> </td>
+<td class="views-field views-field-field-dinner"> <p>새우튀김덮밥(#)&nbsp; 3,500원<br> 버섯고추장잡채(#)&nbsp; 2,200원</p> <p>※운영시간 17:00~19:00<br> &nbsp;</p> </td>
+</tr>
+<tr class="even">
+<td class="views-field views-field-field-restaurant"> 자하연식당(880-7888) </td>
+<td class="views-field views-field-field-breakfast"> </td>
+<td class="views-field views-field-field-lunch"> <p>쇠고기짜장밥&nbsp; 3,500원<br> 영계백숙&nbsp; 4,500원</p> <p>&nbsp;</p> <p>(3층 교직원) 오늘의 메뉴-에그함박스테이크&nbsp; 13,000원</p> <p>(3층교직메뉴)</p> <p>봄나물&amp;불고기정식&nbsp; 15,000원<br> 웰빙정식&nbsp; 15,000원<br> 치자밥과추어탕&nbsp; 13,000원<br> 연어스테이크&nbsp; 13,000원<br> 콩비지찌개와순살코다리찜&nbsp; 13,000원<br> 야끼도리덮밥&nbsp; 12,000원<br> 왕갈비탕&nbsp; 11,000원<br> 매운삼겹살직화구이&nbsp; 11,000원<br> 리코타치즈샐러드&nbsp; 10,000원<br> 팔진탕면&nbsp; 10,000원</p> <p>&nbsp;</p> <p> <span style="color: rgb(0, 0, 0);">※운영시간: 11:30~19:00</span><br> ※혼잡시간: 11:40~12:30</p> </td>
+<td class="views-field views-field-field-dinner"> <p>낙지연포탕(#)&nbsp; 3,500원<br> 규동&nbsp; 3,500원</p> <p>&nbsp;</p> <p>(3층교직메뉴)</p> <p>연어스테이크&nbsp; 13,000원<br> 야끼도리덮밥&nbsp; 12,000원<br> 해물덮밥&nbsp; 12,000원<br> 왕갈비탕&nbsp; 11,000원<br> 매운삼겹살직화구이&nbsp; 11,000원</p> <p>&nbsp;</p> <p><span style="color: rgb(0, 0, 0);">※운영시간: 11:30~19:00</span><br><span style="color: rgb(0, 0, 205);">주문은 10분전 마감</span></p> </td>
+</tr>
+<tr class="odd">
+<td class="views-field views-field-field-restaurant"> 예술계식당(876-1006) </td>
+<td class="views-field views-field-field-breakfast"> </td>
+<td class="views-field views-field-field-lunch"> <p>철판 치즈함박&amp;클링클럿 + 콩나물쫄면 + 어묵탕 + 볶은김치주먹밥 : 5,500원</p> <p>셀프라면 + 밥 + 김치 : 3,000원</p> <p>►운영시간 : 11:30~13:30</p> <p>&nbsp;</p> </td>
+<td class="views-field views-field-field-dinner"> <p>파송송계란탁라면 + 탕수육 + 가래떡떡볶이 : 4,500원</p> <p>►운영시간 : 17:00~18:30</p> </td>
+</tr>
+<tr class="even">
+<td class="views-field views-field-field-restaurant"> 소담마루(880-8698) </td>
+<td class="views-field views-field-field-breakfast"> </td>
+<td class="views-field views-field-field-lunch"> <p>당분간 폐점</p> </td>
+<td class="views-field views-field-field-dinner"> <p>당분간 폐점</p> </td>
+</tr>
+<tr class="odd">
+<td class="views-field views-field-field-restaurant"> 라운지오(882-7005) </td>
+<td class="views-field views-field-field-breakfast"> </td>
+<td class="views-field views-field-field-lunch"> <p>피자, 스파게티류</p> <p>&nbsp;</p> <p>※운영시간: 11:00~19:00</p> <p>※혼잡시간: 12:00~12:30</p> </td>
+<td class="views-field views-field-field-dinner"> <p>피자, 스파게티류</p> <p>&nbsp;</p> <p>※운영시간: 11:00~19:00</p> </td>
+</tr>
+<tr class="even">
+<td class="views-field views-field-field-restaurant"> 두레미담(880-9358) </td>
+<td class="views-field views-field-field-breakfast"> </td>
+<td class="views-field views-field-field-lunch"> <p>&lt;셀프코너&gt;&nbsp;6,500원</p> <p>잡곡밥</p> <p>전주콩나물국밥</p> <p>간장돼지불백</p> <p>베이컨스피니치크림깐풍기</p> <p>마파두부</p> <p>세발나물</p> <p>깍두기</p> <p>그린샐러드</p> <p>오늘의차</p> <p>&nbsp;</p> <p><span style="font-size: 14px;"><span style="color: black; font-family: &quot;맑은 고딕&quot;; language: en-US; mso-ascii-font-family: &quot;맑은 고딕&quot;; mso-fareast-font-family: &quot;맑은 고딕&quot;; mso-bidi-font-family: +mj-cs; mso-ascii-theme-font: major-latin; mso-fareast-theme-font: major-fareast; mso-bidi-theme-font: major-bidi; mso-color-index: 1; mso-font-kerning: 12.0pt; mso-style-textfill-type: solid; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-color: black; mso-style-textfill-fill-alpha: 100.0%;">※</span><span style="color: black; font-family: &quot;맑은 고딕&quot;; language: ko; mso-ascii-font-family: &quot;맑은 고딕&quot;; mso-fareast-font-family: &quot;맑은 고딕&quot;; mso-bidi-font-family: +mj-cs; mso-ascii-theme-font: major-latin; mso-fareast-theme-font: major-fareast; mso-bidi-theme-font: major-bidi; mso-color-index: 1; mso-font-kerning: 12.0pt; mso-style-textfill-type: solid; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-color: black; mso-style-textfill-fill-alpha: 100.0%;">운영시간</span><span style="color: black; font-family: &quot;맑은 고딕&quot;; language: en-US; mso-ascii-font-family: &quot;맑은 고딕&quot;; mso-fareast-font-family: &quot;맑은 고딕&quot;; mso-bidi-font-family: +mj-cs; mso-ascii-theme-font: major-latin; mso-fareast-theme-font: major-fareast; mso-bidi-theme-font: major-bidi; mso-color-index: 1; mso-font-kerning: 12.0pt; mso-style-textfill-type: solid; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-color: black; mso-style-textfill-fill-alpha: 100.0%;">: 11:00~14:00<br> ※</span><span style="color: black; font-family: &quot;맑은 고딕&quot;; language: ko; mso-ascii-font-family: &quot;맑은 고딕&quot;; mso-fareast-font-family: &quot;맑은 고딕&quot;; mso-bidi-font-family: +mj-cs; mso-ascii-theme-font: major-latin; mso-fareast-theme-font: major-fareast; mso-bidi-theme-font: major-bidi; mso-color-index: 1; mso-font-kerning: 12.0pt; mso-style-textfill-type: solid; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-color: black; mso-style-textfill-fill-alpha: 100.0%;">혼잡시간</span><span style="color: black; font-family: &quot;맑은 고딕&quot;; language: en-US; mso-ascii-font-family: &quot;맑은 고딕&quot;; mso-fareast-font-family: &quot;맑은 고딕&quot;; mso-bidi-font-family: +mj-cs; mso-ascii-theme-font: major-latin; mso-fareast-theme-font: major-fareast; mso-bidi-theme-font: major-bidi; mso-color-index: 1; mso-font-kerning: 12.0pt; mso-style-textfill-type: solid; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-color: black; mso-style-textfill-fill-alpha: 100.0%;">: 12:00~12:30</span></span></p> </td>
+<td class="views-field views-field-field-dinner"> <p>&lt;셀프코너&gt;&nbsp;6,500원</p> <p>잡곡밥</p> <p>육개장칼국수</p> <p>미쳐버린파닭조림</p> <p>생선까스</p> <p>쑥갓나물</p> <p>단팥생크림빵</p> <p>그린샐러드</p> <p>오늘의차</p> <p>&nbsp;</p> <p><span style="font-size: 14px;"><span style="color: black; font-family: &quot;맑은 고딕&quot;; language: en-US; mso-ascii-font-family: &quot;맑은 고딕&quot;; mso-fareast-font-family: &quot;맑은 고딕&quot;; mso-bidi-font-family: +mj-cs; mso-ascii-theme-font: major-latin; mso-fareast-theme-font: major-fareast; mso-bidi-theme-font: major-bidi; mso-color-index: 1; mso-font-kerning: 12.0pt; mso-style-textfill-type: solid; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-color: black; mso-style-textfill-fill-alpha: 100.0%;">※</span><span style="color: black; font-family: &quot;맑은 고딕&quot;; language: ko; mso-ascii-font-family: &quot;맑은 고딕&quot;; mso-fareast-font-family: &quot;맑은 고딕&quot;; mso-bidi-font-family: +mj-cs; mso-ascii-theme-font: major-latin; mso-fareast-theme-font: major-fareast; mso-bidi-theme-font: major-bidi; mso-color-index: 1; mso-font-kerning: 12.0pt; mso-style-textfill-type: solid; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-color: black; mso-style-textfill-fill-alpha: 100.0%;">운영시간</span><span style="color: black; font-family: &quot;맑은 고딕&quot;; language: en-US; mso-ascii-font-family: &quot;맑은 고딕&quot;; mso-fareast-font-family: &quot;맑은 고딕&quot;; mso-bidi-font-family: +mj-cs; mso-ascii-theme-font: major-latin; mso-fareast-theme-font: major-fareast; mso-bidi-theme-font: major-bidi; mso-color-index: 1; mso-font-kerning: 12.0pt; mso-style-textfill-type: solid; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-color: black; mso-style-textfill-fill-alpha: 100.0%;">: 17:00~19:00</span></span></p> </td>
+</tr>
+<tr class="odd">
+<td class="views-field views-field-field-restaurant"> 동원관식당(880-8697) </td>
+<td class="views-field views-field-field-breakfast"> </td>
+<td class="views-field views-field-field-lunch"> <p>모듬어묵탕(#)&nbsp; 3,000원<br> 갈비구이&nbsp; 4,000원</p> <p>&nbsp;</p> <p>※운영시간: 11:00~14:00</p> <p>※혼잡시간: 11:30~12:10</p> </td>
+<td class="views-field views-field-field-dinner"> </td>
+</tr>
+<tr class="even">
+<td class="views-field views-field-field-restaurant"> 기숙사식당(881-9072) </td>
+<td class="views-field views-field-field-breakfast"> <p>쇠고기미역국&amp;가자미구이&nbsp; 3,500원</p> <p>&nbsp;</p> <p>※운영시간: 08:00-09:30</p> </td>
+<td class="views-field views-field-field-lunch"> <p>사골우거지해장국&nbsp; 3,500원<br> 돌솥매운갈비찜&nbsp; 4,500원</p> <p>&nbsp;</p> <p>※운영시간: 11:30~13:30</p> </td>
+<td class="views-field views-field-field-dinner"> <p>알참치덮밥(#)&nbsp; 3,500원<br> 오코노미온더치킨까스&nbsp; 4,500원</p> <p>&nbsp;</p> <p>※운영시간: 17:30~19:00</p> </td>
+</tr>
+<tr class="odd">
+<td class="views-field views-field-field-restaurant"> 공대간이식당(889-8956) </td>
+<td class="views-field views-field-field-breakfast"> </td>
+<td class="views-field views-field-field-lunch"> <p>멘보샤 2500원&nbsp;</p> <p>유린까스 3,400원<br> 미니 탕수육 3,800원<br> 고기 소보루 볶음밥 3,800원<br> 공간 짜장면 3,800원<br> 사천 짜장면 3,800원<br> 공간 짬뽕 / 밥 3,800원<br> 짜장면/ 짬뽕 곱빼기 4,300원<br> 콤비메뉴 4,800원</p> <p>( 짜장면/짬뽕, 볶음밥/짜장, 볶음밥/짬뽕 )&nbsp;<br> 순두부 만두 짬뽕 5,100원<br> 비빔 짬짜면 5,500원<br> 부대짬뽕 / 밥 5,500원<br> 짬짜탕면 6,800원<br> 치킨 탕수육 7,500원</p> <p>&nbsp;</p> <p>※운영시간: 11:00~18:30&nbsp;/</p> <p>브레이크 타임 : 14:30~15:30</p> </td>
+<td class="views-field views-field-field-dinner"> <p>멘보샤 2500원&nbsp;</p> <p>유린까스 3,400원<br> 미니 탕수육 3,800원<br> 고기 소보루 볶음밥 3,800원<br> 공간 짜장면 3,800원<br> 사천 짜장면 3,800원<br> 공간 짬뽕 / 밥 3,800원<br> 짜장면/ 짬뽕 곱빼기 4,300원<br> 콤비메뉴 4,800원</p> <p>( 짜장면/짬뽕, 볶음밥/짜장, 볶음밥/짬뽕 )&nbsp;<br> 순두부 만두 짬뽕 5,100원<br> 비빔 짬짜면 5,500원<br> 부대짬뽕 / 밥 5,500원<br> 짬짜탕면 6,800원<br> 치킨 탕수육 7,500원</p> <p>&nbsp;</p> <p>※운영시간: 11:00~18:30&nbsp;/</p> <p>브레이크 타임 : 14:30~15:30</p> </td>
+</tr>
+<tr class="even">
+<td class="views-field views-field-field-restaurant"> 감골식당(880-5544) </td>
+<td class="views-field views-field-field-breakfast"> </td>
+<td class="views-field views-field-field-lunch"> <p>&lt;채식뷔페&gt; &nbsp;6,500원</p> <p>쌀밥 잡곡밥 유부장국 누룽지죽 데리야끼콩불고기 마파두부소스 버섯잡채 단호박견과류꿀찜 무생채 백김치 그린샐러드 루이보스차</p> <p>※운영시간: 11:00~14:00</p> </td>
+<td class="views-field views-field-field-dinner"> </td>
+</tr>
+<tr class="odd">
+<td class="views-field views-field-field-restaurant"> 3식당(880-5545) </td>
+<td class="views-field views-field-field-breakfast"> </td>
+<td class="views-field views-field-field-lunch"> <p>오므라이스&amp;소세지구이&nbsp; 4,000원<br> 마라우육덮밥&nbsp; 4,000원<br> 닭칼국수&nbsp; 3,500원</p> <p>&nbsp;</p> <p>※운영시간: 11:00~14:00</p> <p>※혼잡시간: 11:30~12:40</p> </td>
+<td class="views-field views-field-field-dinner"> <p>깐풍기&nbsp; 4,000원<br> 해물순두부(#)&nbsp; 3,000원</p> <p>&nbsp;</p> <p>※운영시간: 17:00~19:00</p> </td>
+</tr>
+<tr class="even">
+<td class="views-field views-field-field-restaurant"> 302동식당(880-1939) </td>
+<td class="views-field views-field-field-breakfast"> </td>
+<td class="views-field views-field-field-lunch"> <p>차돌청국장찌개&nbsp; 3,000원<br> 깐쇼새우&amp;짜장면&nbsp; 5,500원</p> <p>&nbsp;</p> <p>※운영시간: 11:30-13:30<br> ※혼잡시간: 11:50-12:20</p> </td>
+<td class="views-field views-field-field-dinner"> <p>갈비떡찜&nbsp; 4,000원</p> <p>&nbsp;</p> <p>※운영시간: 17:00-18:30</p> </td>
+</tr>
+<tr class="odd">
+<td class="views-field views-field-field-restaurant"> 301동식당(889-8955) </td>
+<td class="views-field views-field-field-breakfast"> </td>
+<td class="views-field views-field-field-lunch"> <p>&lt;교직원식당&gt;<br> 봄 6,000원<br> 돈목살필라프&amp;계란후라이, 미니냉모밀</p> <p>소반 5,500원<br> 우삼겹버섯샤브샤브탕*칼국수사리, 두부강정</p> <p>&lt;테이크아웃&gt;<br> 선식&amp;흰우유&amp;반숙란 4,000원<br> 반반콤보(유부초밥&amp;샐러드) 4,000원<br> 샐러드 4,500원<br> 베이커리2종 3,000원<br> 토핑죽 4,000원&nbsp;</p> </td>
+<td class="views-field views-field-field-dinner"> </td>
+</tr>
+<tr class="even views-row-last">
+<td class="views-field views-field-field-restaurant"> 220동식당(875-0240) </td>
+<td class="views-field views-field-field-breakfast"> </td>
+<td class="views-field views-field-field-lunch"> <p>두부돼지두루치기&amp;사골떡국&amp;삼색계란찜 4,500원</p> <p>양지차돌쌀국수&amp;날치알양념밥&amp;짜조*춘권*고구마롤 6,000원</p> <p>(플러스메뉴) 목화솜탕수육 2,000원</p> <p>&nbsp;</p> <p>※운영시간: 점심 11:30~13:30 /&nbsp;저녁 17:00~19:00</p> </td>
+<td class="views-field views-field-field-dinner"> <p>[뚝]사골떡만둣국&amp;메추리알곤약조림 4,500원</p> <p>&nbsp;</p> <p>※운영시간: 점심 11:30~13:30 /&nbsp;저녁 17:00~19:00</p> </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<!-- //컨텐츠 영역 -->
+</div>
+<!-- 위젯 영역 -->
+<div class="widgetArea">
+</div>
+</div>
+</section>
+<footer>
+<div class="inner">
+<div class="lg02">
+<a href="/"> <img src="https://snuco.snu.ac.kr/sites/snuco.snu.ac.kr/files/%ED%91%B8%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%A7%81%EB%A1%9C%EA%B3%A0.png" alt="서울대학교생활협동조합"> </a>
+</div>
+<div class="siteInfo">
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+#favlinkblock_1 .widgetTitle ul li:nth-child(1){
+background-image: url('http://snuco.snu.ac.kr/sites/snuco.snu.ac.kr/files/%EB%8C%80%ED%95%99%EA%B8%B0%EB%85%90%ED%92%88%EB%AA%B0-%EC%84%9C%EC%9A%B8%EB%8C%80.jpg');
+background-repeat: no-repeat;
+height: 96px;
+}
+
+#favlinkblock_1 .widgetTitle ul li:nth-child(2){
+background-image: url('http://snuco.snu.ac.kr/sites/snuco.snu.ac.kr/files/%EB%8C%80%ED%95%99%EA%B8%B0%EB%85%90%ED%92%88%EB%AA%B0-%EC%97%B0%EC%84%B8%EB%8C%80.jpg');
+background-repeat: no-repeat;
+height: 96px;
+}
+#favlinkblock_1 .widgetTitle ul li:nth-child(3){
+background-image: url('http://snuco.snu.ac.kr/sites/snuco.snu.ac.kr/files/%EB%8C%80%ED%95%99%EA%B8%B0%EB%85%90%ED%92%88%EB%AA%B0-%EC%9D%B4%EB%8C%80.jpg');
+background-repeat: no-repeat;
+height: 96px;
+}
+#favlinkblock_1 ul li:nth-child(2n+1) {
+
+margin-right: 0px !important;
+
+}
+
+#favlinkblock_1 ul li {
+
+margin: 2px 0 !important;
+margin-right: 0px;
+float: left;
+width: 32%;
+
+}
+
+#favlinkblock_1 .widgetTitle ul li a {
+color: #333;
+display: block;
+background-color: #fff;
+opacity: 0;
+}
+
+#favlinkblock_1 ul li a {
+
+height: 96px;
+line-height: 31px;
+font-size: 13px;
+
+}
+
+/*--><!]]>*/
+</style>
+<ul class="ng01">
+<li><a href="/node/7">찾아오시는길</a><span>|</span></li>
+<li><a href="/node/8">이용약관</a><span>|</span></li>
+<li><a href="/node/9"><b>개인정보처리방침</b><span>|</span></a></li>
+<li><a href="/node/10">이메일 무단수집거부</a></li>
+</ul>
+<p><span style="color:#ffffff;">08826 서울특별시 관악구 관악로 1 서울대학교 생활협동조합 사업자등록번호 : 119-82-02666<br> 통신판매업신고 : 관악제 18-01942호 Tel : 02) 880-8556,2580(기념품), 8536(식당) Fax : 02) 872-3150<br> COPYRIGHT(C) 2005 SUNCOMPANY.COM ALL RIGHTS RESERVED.</span></p>
+</div>
+<div class="directLink">
+<ul class="ng07">
+</ul>
+</div>
+<a class="btn04 " href="/board/bug_report/add">수정요청</a>
+</div>
+</footer>
+<!-- //푸터 영역 -->
+</div>
+<!-- 수정요청 팝업 영역 -->
+<div class="pp01">
+<i class="bg"></i>
+<div class="dialog">
+<h3>수정요청</h3>
+<p>현재 페이지에 대한 의견이나 수정요청을 관리자에게 보내실 수 있습니다.<br> 아래의 빈 칸에 내용을 간단히 작성해주세요.</p>
+<form action="" method="post">
+<label for="apply_content">내용</label>
+<textarea id="apply_content" name="apply_content"></textarea>
+<button>확인</button>
+</form>
+<a class="closeBtn" href="#close">닫기</a>
+</div>
+</div>
+<!-- //수정요청 팝업 영역 -->
+<!-- 인쇄미리보기 팝업 영역 -->
+<div class="pp02">
+<i class="bg"></i>
+<div class="preview">
+<div class="ppHeader">
+<div class="lg01">
+<a href="#"> <img src="" alt=""> <span class="three_line"> <strong></strong> <i></i> <em></em> </span> </a>
+</div>
+<div class="btn03">
+<a href="#print" class="btnPrint">인쇄</a>
+<a href="#cancel" class="btnCancel">닫기</a>
+</div>
+</div>
+<div class="ppTitle">
+<h2></h2>
+<ul class="ng03">
+<li class="home"><a href="#">홈으로 가기</a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+</ul>
+</div>
+<div class="ppContents">
+</div>
+<div class="ppFooter">
+<p class="url"></p>
+<div class="btn03">
+<a href="#print" class="btnPrint">인쇄</a>
+<a href="#cancel" class="btnCancel">닫기</a>
+</div>
+</div>
+</div>
+</div>
+<!-- //인쇄미리보기 팝업 영역 -->
+</body>
+</html>
