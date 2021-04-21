@@ -43,7 +43,7 @@ class HTMLDecoder {
         at dateComponents: DateComponents,
         completion: @escaping ([OneDayMenus]?) -> Void
     ) {
-        if storage[dateComponents]?.isEmpty != false {
+        if (storage[dateComponents]?.count ?? 0) <= 1 {
             download(at: dateComponents) { downloaded in
                 completion(downloaded)
                 return
@@ -66,18 +66,18 @@ class HTMLDecoder {
         }
         SNUCODecoder.shared.menus(at: dateComponents) { snuco in
             print("SNUCO 완료")
+            self.storage[dateComponents] = snuco
             OurhomeDecoder.shared.download(at: dateComponents) { ourhome in
                 print("Ourhome 완료")
-                self.storage[dateComponents] = snuco
                 for (date, ourhomeData) in ourhome {
                     if self.storage[date] == nil {
                         self.storage[date] = [ourhomeData]
                     } else {
+                        self.storage[date]?.removeAll(where: { $0.id == .아워홈 })
                         self.storage[date]!.append(ourhomeData)
                     }
                 }
                 completion(self.storage[dateComponents])
-                print("다운로드 완료")
             }
         }
         
@@ -86,7 +86,14 @@ class HTMLDecoder {
     @AutoSave("htmlStorage", defaultValue: [:])
     private var storage: [DateComponents: [OneDayMenus]]
     
+    @AutoSave("ourhomeFixedFirstRun", defaultValue: true)
+    private var ourhomeFixedFirstRun: Bool
+    
     private init() {
         if isPreview { storage = [:] }
+        if ourhomeFixedFirstRun {
+            storage = [:]
+            ourhomeFixedFirstRun = false
+        }
     }
 }
